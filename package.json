@@ -1,16 +1,13 @@
 {
   "name": "sockets",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "type": "module",
+  "private": true,
   "scripts": {
     "start": "node app.js",
     "dev": "nodemon app.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
     "socket.io": "^4.7.5"
